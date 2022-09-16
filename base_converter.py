@@ -7,7 +7,7 @@ ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # Transform number from any base to base 10
 def to_base10(base, num):
     base10num = 0
-    count = 0 # PASKA, EN KEKSI PAREMPAA :(((
+    count = 0
  
     for digit in num[::-1]:
         try:
